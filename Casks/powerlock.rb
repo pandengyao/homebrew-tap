@@ -1,8 +1,8 @@
 # Homebrew Cask 模板，发布在 pandengyao/homebrew-tap。
 # 发版后把 version 和 sha256 更新为新 dmg 的值（见 docs/RELEASE_CHECKLIST.md）。
 cask "powerlock" do
-  version "1.1.0"
-  sha256 "e7b36cd4df964e9714888ecc7f456eb566d792bcc2b2752987c61118223781dc"
+  version "1.2.0"
+  sha256 "dd4e965c692e9bb55afde78e6747c6592e556bfe76926b3bbf9d2410f4696963"
 
   url "https://github.com/pandengyao/PowerLock/releases/download/v#{version}/PowerLock-#{version}.dmg"
   name "PowerLock"
@@ -36,7 +36,7 @@ cask "powerlock" do
 
   caveats <<~EOS
     PowerLock installs a background helper the first time you enable it.
-    To remove the helper, use "卸载后台助手…" (Uninstall helper) in the menu bar
+    To remove the helper, use More > "Uninstall PowerLock…" in the menu bar
     before uninstalling, or run:
       brew uninstall --zap --cask powerlock
   EOS
