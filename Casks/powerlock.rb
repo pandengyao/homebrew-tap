@@ -1,8 +1,8 @@
 # Homebrew Cask 模板，发布在 pandengyao/homebrew-tap。
 # 发版后把 version 和 sha256 更新为新 dmg 的值（见 docs/RELEASE_CHECKLIST.md）。
 cask "powerlock" do
-  version "1.2.0"
-  sha256 "dd4e965c692e9bb55afde78e6747c6592e556bfe76926b3bbf9d2410f4696963"
+  version "1.3.0"
+  sha256 "890a87dd7b991cb2d44a726eab1b70ae8c382f22b20f3b592aaee183c42ca948"
 
   url "https://github.com/pandengyao/PowerLock/releases/download/v#{version}/PowerLock-#{version}.dmg"
   name "PowerLock"
