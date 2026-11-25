@@ -49,6 +49,10 @@ cask "powerlock" do
       ]
 
   caveats <<~EOS
+    PowerLock is not notarized yet. If macOS says it can't verify PowerLock,
+    open System Settings > Privacy & Security, click "Open Anyway", then open
+    PowerLock again.
+
     PowerLock installs a background helper the first time you enable it.
     To remove the helper, use More > "Uninstall PowerLock…" in the menu bar
     before uninstalling, or run:
