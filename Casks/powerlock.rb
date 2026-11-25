@@ -1,6 +1,6 @@
 cask "powerlock" do
-  version "1.3.0"
-  sha256 "890a87dd7b991cb2d44a726eab1b70ae8c382f22b20f3b592aaee183c42ca948"
+  version "1.3.1"
+  sha256 "40b3a7712149f0f4bb4ed89684e8e13225e40ab4e21b87c55408fcf60e662504"
 
   url "https://github.com/pandengyao/PowerLock/releases/download/v#{version}/PowerLock-#{version}.dmg"
   name "PowerLock"
